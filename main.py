@@ -26,7 +26,7 @@ parser.add_argument('--hyperpara', '-beta', type=float, default=-1, help='hypter
 args = parser.parse_args()
 
 
-# Random seed. 随机数种子
+# Random seed.
 def set_seed(seed):
     # random.seed(seed)
     os.environ['PYTHONHASHSEED'] = str(seed)
