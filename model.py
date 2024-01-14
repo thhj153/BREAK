@@ -16,49 +16,31 @@ cfg = Config()
 
 from sklearn.preprocessing import MinMaxScaler
 
-# class SelfAttention(nn.Module):
-#     def __init__(self, input_size, hidden_size):
-#         super(SelfAttention, self).__init__()
-#         self.W = nn.Linear(input_size, hidden_size, True)
-#         self.u = nn.Linear(hidden_size, 1)
-
-#     def forward(self, x): 
-#         u = torch.tanh(self.W(x))
-#         a = nn.softmax(self.u(u), dim=1)
-#         x = a.mul(x)
-#         x = x.sum(1)
-#         return x
 
 class MyResNet50(nn.Module):
     def __init__(self, cfg):
         super(MyResNet50, self).__init__()
         self.resnet50_pret = models.resnet50(pretrained=True)
-        self.resnet50_pret.fc = nn.Linear(2048,768).to(cfg.device)
+        self.resnet50_pret.fc = nn.Linear(2048,768).to(cfg.device) # dimension reduction
     
     def forward(self, img_id):
         # construct resnet50_pretrain model
-        transform1 = transforms.Compose([  # 串联多个图片变换的操作
-        transforms.Resize(256),  # 缩放
-        transforms.CenterCrop(224),  # 中心裁剪
-        transforms.ToTensor()])  # 转换成Tensor
+        transform1 = transforms.Compose([  
+        transforms.Resize(256),  
+        transforms.CenterCrop(224),  
+        transforms.ToTensor()])  
         try:
-            img = Image.open(f"{cfg.img_path}/{img_id}.jpg" )  # 打开图片
-            # print(f"{cfg.img_path}/{filename}.jpg")
-
+            img = Image.open(f"{cfg.img_path}/{img_id}.jpg" ) 
             if img.mode != "RGB":
                 img = img.convert("RGB")
-            img1 = transform1(img).to(cfg.device)  # 对图片进行transform1的各种操作
-            resnet50_feature_extractor = self.resnet50_pret  # ResNet50的预训练模型
-            # resnet50_feature_extractor.fc = nn.Linear(2048,768).to(cfg.device) # 全连接层的输出设为1024
-            torch.nn.init.eye_(resnet50_feature_extractor.fc.weight)  # 将二维tensor初始化为单位矩阵
+            img1 = transform1(img).to(cfg.device)  
+            resnet50_feature_extractor = self.resnet50_pret  
+            torch.nn.init.eye_(resnet50_feature_extractor.fc.weight)
 
             for name, param in resnet50_feature_extractor.named_parameters():
                     param.requires_grad = False
-            # x = Variable(torch.unsqueeze(img1, dim=0).float(), requires_grad=True)
             x = torch.unsqueeze(img1, dim=0).float()
-            # print(x)
-
-            y = resnet50_feature_extractor(x) # 图片特征向量
+            y = resnet50_feature_extractor(x) 
             return y
         except:
             return torch.zeros((1,cfg.input_dim)).to(cfg.device)
@@ -125,140 +107,74 @@ class EdgeWeightCal1(nn.Module):
         edge_weights = edge_weights.clone().detach().requires_grad_(True).to(dtype=torch.float32, device=cfg.device)
         return edge_weights
 
-class Sequential_Encoder(nn.Module):
-    def __init__(self, cfg):
-        super(Sequential_Encoder, self).__init__()
-        # self.lstm = nn.LSTM(cfg.input_dim, cfg.output_dim*2, batch_first=False)
-        self.mlp = nn.Sequential(nn.Linear(cfg.input_dim, cfg.output_dim*2), # 200 for not weighted
-                        nn.Linear(cfg.output_dim*2,cfg.output_dim))
-        
-        # self.hs_weight = nn.Parameter(torch.rand(1,cfg.output_dim))
-        
-                
-    def forward(self, seq_features):
-        # seq_features, _ = self.lstm(seq_features)
-        seq_features = self.mlp(seq_features)
-        return seq_features
 
 
 class MyModel(nn.Module):
     def __init__(self,cfg):
         super(MyModel,self).__init__()
         self.bert_pret1 = BertPre1(cfg)
-        self.bert_pret2 = BertPre2(cfg)
+        self.bert_pret2 = BertPre2(cfg) # sequential encoder
 
         self.resnet50 = MyResNet50(cfg)
 
         self.edge_weight1 = EdgeWeightCal1(cfg)
 
         self.conv1 = GCNConv(cfg.input_dim, cfg.output_dim)
-        self.MLP_bert = nn.Sequential(nn.Linear(cfg.input_dim, cfg.output_dim*2), # 200 for not weighted
+        self.MLP_bert = nn.Sequential(nn.Linear(cfg.input_dim, cfg.output_dim*2), 
                         nn.Linear(cfg.output_dim*2,cfg.output_dim))
 
-        self.MLP_pred = nn.Sequential(nn.Linear(cfg.output_dim*2, cfg.hidden_dim), # 200 for not weighted
+        self.MLP_pred = nn.Sequential(nn.Linear(cfg.output_dim*2, cfg.hidden_dim),
                                 nn.Linear(cfg.hidden_dim,cfg.final_dim))
-                                
-
-
-        
+  
 
     def forward(self, sent, nodes_num, ids, Flag):
         pred_list = []
         kl_list = []
-        var_weights = []
         for i, sent_i in enumerate(sent):
-            sent_i = sent_i[0:nodes_num[i]]
-            nodes_vecs = self.bert_pret1(sent_i)
-            # print(nodes_vecs)
-            semantic_vecs = self.bert_pret2(sent_i)
-            # semantic_vecs = semantic_vecs[0:nodes_num[i]]
-            # print(semantic_vecs)
+            # only preserve the meaningful nodes, e.g., a news with 5 sentences will only use 5 nodes, 
+            # rather than 25 in cfg.limit_num_sen, which avoid 0 padding.
+            sent_i = sent_i[0:nodes_num[i]] 
 
+            # vectorization
+            nodes_vecs = self.bert_pret1(sent_i)
+            semantic_vecs = self.bert_pret2(sent_i) # sequential representation of news sentences
             img_vecs = self.resnet50(ids[i])
-            # print(img_vecs)
+
             len_img_vecs = len(img_vecs)
             len_cat_vecs = nodes_num[i]+len_img_vecs
-            # len_cat_vecs = nodes_num[i]
             if len_img_vecs != 0:
                 nodes_vecs = torch.cat((nodes_vecs, img_vecs), dim=0)
                 semantic_vecs = torch.cat((semantic_vecs, img_vecs), dim=0)
 
+            # graph construction
             text_graph = build_graph(len_cat_vecs, nodes_vecs).to(cfg.device)
             node_fea, edge_index = text_graph.x, text_graph.edge_index
 
+            # edge weight inferring
             edge_weight1 = self.edge_weight1(node_fea, semantic_vecs)
-            edge_weights = edge_weight1.reshape(len_cat_vecs,len_cat_vecs)[:-1,:-1]
-            # data = edge_weight1.reshape(len_cat_vecs,len_cat_vecs).cpu()
-            data = edge_weights.cpu()
-            transfer=MinMaxScaler(feature_range=[0,1])
-            data=transfer.fit_transform(data)
+
+            # graph representation
             conv1_graph = self.conv1(node_fea, edge_index, edge_weight1)
-            # # print(conv2_graph[0])
 
-            # # 句子嵌入区分度
-            node_feas = conv1_graph[:-1,:-1]
-            # data = torch.cosine_similarity(node_feas.unsqueeze(1)*100, node_feas.unsqueeze(0)*100, dim=2).cpu()
-            # # print(data)
-            # # data = data.abs()
-            # # print(ids[i])
-            temp_id = ids[i]
-            # # print(data)
-            fig, ax = plt.subplots()
-            im = ax.imshow(data, cmap='pink',vmin=0,vmax=1)
-
-            # 显示数值
-            for i in range(len(data)):
-                for j in range(len(data)):
-                    text = ax.text(j, i, f'{data[i, j]:.2f}', ha='center', va='center', color='#33A02C', fontsize=6)
-            # 设置坐标轴标签为偶数
-            even_ticks = np.arange(0, len(data[0]), 2)
-            # ax.set_xticks(even_ticks)
-            # ax.set_yticks(even_ticks)
-            plt.yticks(even_ticks, fontsize=18)
-            plt.xticks(even_ticks, fontsize=18) #15 in fig1
-
-            # 设置坐标轴标签字体大小
-            # ax.set_xticklabels(even_ticks + 1, fontsize=8)
-            # ax.set_yticklabels(even_ticks + 1, fontsize=8) #19
-            # 设置colorbar字体大小
-            cbar = plt.colorbar(im)
-            cbar.ax.tick_params(labelsize=18)
-            # plt.show()
-            # plt.switch_backend('pdfcairo')
-            if temp_id == "politifact87":
-                plt.savefig('/home/yinjunwei/bert_processing_data/visual/politifact87_edge.pdf', dpi=300, bbox_inches='tight')
-                # plt.savefig('/home/yinjunwei/bert_processing_data/visual/politifact87.pdf', dpi=300, bbox_inches='tight')
-            # plt.savefig('/home/yinjunwei/bert_processing_data/visual/'+temp_id+'.pdf', dpi=300, bbox_inches='tight')
-            # plt.savefig('/home/yinjunwei/MBO_we_1/heatmap_weight.png', dpi=300, bbox_inches='tight')
-
-            # edge_weight1 = self.edge_weight1(node_fea, semantic_vecs)
-            # print(ids[i])
-            # print(len_cat_vecs)
-            # print(edge_weight1.reshape(len_cat_vecs,len_cat_vecs).sum(1))
-
-            # conv1_graph = self.conv1(node_fea, edge_index)
-            # if temp_id == "politifact14469":
-            #     break
+            # dimension reduction
             semantic_vecs = self.MLP_bert(semantic_vecs)
-            # if Flag=="outer":
-            #     kldiv = torch.nn.functional.kl_div(semantic_vecs.softmax(dim=-1).log(),conv1_graph.softmax(dim=-1),reduction="sum")
-            #     if (kldiv > 999):
-            #         kldiv = torch.tensor(999).to(cfg.device)
-            #     kl_list.append(kldiv)
+
+            # KL divergence
+            if Flag=="outer":
+                kldiv = torch.nn.functional.kl_div(semantic_vecs.softmax(dim=-1).log(),conv1_graph.softmax(dim=-1),reduction="sum")
+                if (kldiv > 999): # avoid too large kl
+                    kldiv = torch.tensor(999).to(cfg.device)
+                kl_list.append(kldiv)
 
 
             graph_seman = torch.cat((semantic_vecs,conv1_graph),dim=1)
-
             pred = self.MLP_pred(graph_seman)
-            
             pred = torch.mean(pred,dim=0)
-            # print(pred)
             pred_list.append(pred)
 
         pred = torch.stack(pred_list, 0)
         if Flag=="outer":
-            # kldiv = torch.stack(kl_list, 0)
-            # return pred, kldiv
-            return pred
+            kldiv = torch.stack(kl_list, 0)
+            return pred, kldiv
         else:
             return pred

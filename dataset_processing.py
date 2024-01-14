@@ -3,8 +3,6 @@ from networkx.algorithms.shortest_paths import weighted
 from networkx.classes.function import is_directed
 import pandas as pd
 
-from sklearn.manifold import TSNE
-from sklearn.decomposition import PCA
 import numpy as np
 import networkx as nx
 
@@ -13,54 +11,38 @@ from torch_geometric.data import Data
 
 
 
-# Get the tkoen ids of sentences 将自然语言转token_id
+# Get the tkoen ids of sentences
 def convert_text_to_token(tokenizer, new, limit_sens, limit_words):
     result_new = []
-    # new = new.split(".?!")
     new = re.split(r'[.?!;]',new)
-    # print(len(new))
-    # print(new)
-    new = new[:-1] # drop the last full stop 去掉最后的句号
+    new = new[:-1] # drop the last full stop
     nodes_num = limit_sens
-    for sen in new: # get the tkoen id of every sentece 每一句提取词tokenid
-        # print(sen)
+    for sen in new: # get the tkoen id of every sentece
+
         if len(sen.split(" ")) < 3:
-            # print("1\n")
             pass
         else:
-            tokens = tokenizer.encode(sen, max_length=limit_words, padding="max_length", truncation=True, return_tensors='pt') # token ids of one sentence's word 一句话的tokenid输入
-            result_new.append(tokens) # 添加tokenid
+            tokens = tokenizer.encode(sen, max_length=limit_words, padding="max_length", truncation=True, return_tensors='pt') # token ids of one sentence's word
+            result_new.append(tokens) 
             if len(result_new) >= limit_sens: 
                 break
-    if len(result_new) < limit_sens: # if less than setting senteces number, we padding it 如果少于设置的超参数句子数量，则补全
+    if len(result_new) < limit_sens: # if less than setting senteces number, we padding it
         nodes_num = len(result_new)
         need_pad = limit_sens - len(result_new)
         result_new.extend([torch.Tensor([[0] * limit_words]) for i in range(need_pad)])
     result_new = torch.stack(result_new, 0)
     result_new = torch.squeeze(result_new, 1)
-    # return result_new
     return result_new, nodes_num
 
-# Reduce the dimesion of Bert features
-def lower_dimension(feature, hidden_dim):
-    if hidden_dim == 768:
-        pass
-    else:
-        # tsne_feature = TSNE(n_components=hidden_dim, init='pca', random_state=100,early_exaggeration=15,perplexity=25)
-        # tsne_feature = tsne_feature.fit_transform(feature.cpu())
-        tsne_feature = PCA(n_components=hidden_dim, svd_solver='auto')
-        tsne_feature = tsne_feature.fit_transform(feature.cpu())
-
-        print("Org data dimension is {}. Embedded data dimension is {}".format(feature.shape[-1], tsne_feature.shape[-1]))
 
 # Build a graph
 def build_graph(node_num, nodes_feature):
-    # nodes_feature = nodes_feature[:node_num]
+
     G = nx.Graph()
     edge_list = []
     for i in range(node_num):
         for j in range(node_num):
-            edge_list.append((i,j)) # Full connect will lead to all nodes' features are the same. 全连接导致所有节点的特征在图卷积聚合一次过后是相同的，这里可以考虑一下后续的更新
+            edge_list.append((i,j))
     G.add_edges_from(edge_list)
 
     adj = nx.to_scipy_sparse_matrix(G).tocoo()
@@ -74,17 +56,15 @@ def build_graph(node_num, nodes_feature):
 # Get data from the dataset
 def get_data(data_path):
     news_list = pd.read_csv(data_path, sep="\t")
-    # news_list = shuffle(news_list) # shuffle the dataset 打乱数据集
-    # print(news_list)
 
-    # Get the title, content, and label of news, respectively. 分别获取新闻的标题、内容、标签。
+
+    # Get the title, content, and label of news, respectively.
     news_title, news_content, news_label, news_id = [],[],[],[]
     count = 0
     # list_name = ["clean_title","content","2_way_label","id"]
     list_name = ["clean_title","content","2_way_label","id"]
     for names_index in range(len(list_name)):
-        for news_attr in news_list[list_name[names_index]]:
-            # print(f"this is one of the news attributes: {news_attr}")        
+        for news_attr in news_list[list_name[names_index]]:   
             if count == 0:
                 news_title.append(news_attr)
             if count == 1:
@@ -95,15 +75,14 @@ def get_data(data_path):
                 news_id.append(news_attr)
         count += 1
 
-    # Merge the news title and content, if necessary. 若有必要，将标题和内容合并为一个段落。
+    # Merge the news title and content
     news_tit_cont = []
     print(f"the length of news_list is: {len(news_list)}")
     for i, tit in enumerate(news_title):
         news_tit_cont.append(f"{tit}. {news_content[i]}")
     print(f"the length of news_tit_cont is: {len(news_tit_cont)}")
-    # print(news_id)
     return news_tit_cont, news_label, news_id
-    # return news_tit_cont, news_label
+
 
 
 
