@@ -11,7 +11,7 @@ from torch_geometric.data import Data
 
 
 
-# Get the tkoen ids of sentences
+# Get the token ids of sentences
 def convert_text_to_token(tokenizer, new, limit_sens, limit_words):
     result_new = []
     new = re.split(r'[.?!;]',new)
@@ -19,7 +19,7 @@ def convert_text_to_token(tokenizer, new, limit_sens, limit_words):
     nodes_num = limit_sens
     for sen in new: # get the tkoen id of every sentece
 
-        if len(sen.split(" ")) < 3:
+        if len(sen.split(" ")) < 3: # filter out the sentence less than two words
             pass
         else:
             tokens = tokenizer.encode(sen, max_length=limit_words, padding="max_length", truncation=True, return_tensors='pt') # token ids of one sentence's word
