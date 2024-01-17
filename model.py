@@ -86,23 +86,23 @@ class BertPre2(nn.Module):
 class EdgeWeightCal1(nn.Module):
     def __init__(self, cfg):
         super(EdgeWeightCal1, self).__init__()
-        self.Wl_weight = nn.Parameter(torch.rand(cfg.input_dim,cfg.input_dim))
+        self.Wl_weight = nn.Parameter(torch.rand(cfg.input_dim,cfg.input_dim)) # cfg.input_dim*cfg.input_dim
         self.Wn_weight = nn.Parameter(torch.rand(cfg.input_dim,cfg.input_dim))
         self.Ws_weight = nn.Parameter(torch.rand(cfg.input_dim,cfg.input_dim))
         # self.hs_weight = nn.Parameter(torch.rand(1,cfg.output_dim))
         
                 
     def forward(self, node_feature, sent_feature):
-        node_feature = node_feature.transpose(0,1)    # (output_dim*2)*N
-        sent_feature = sent_feature.transpose(0,1)    # output_dim*N
+        node_feature = node_feature.transpose(0,1)    # cfg.input_dim*N
+        sent_feature = sent_feature.transpose(0,1)    # cfg.input_dim*N
 
         F_matrix = torch.tanh(node_feature.transpose(0,1).matmul(self.Wl_weight.matmul(sent_feature)))   # N*N
-        H_s = torch.tanh(self.Wn_weight.matmul(node_feature) + self.Ws_weight.matmul(sent_feature).matmul(F_matrix))   # input_dim*N
+        Rt = torch.tanh(self.Wn_weight.matmul(node_feature) + self.Ws_weight.matmul(sent_feature).matmul(F_matrix))   # cfg.input_dim*N, R^T
 
-        H_s = H_s.transpose(0,1)
+        R = Rt.transpose(0,1) # R
         node_feature = node_feature.transpose(0,1)
 
-        edge_weights = torch.cosine_similarity(node_feature.unsqueeze(1), H_s.unsqueeze(0), dim=2)
+        edge_weights = torch.cosine_similarity(node_feature.unsqueeze(1), R.unsqueeze(0), dim=2)
         edge_weights = torch.clamp(edge_weights, min=0.0).view(-1)
         edge_weights = edge_weights.clone().detach().requires_grad_(True).to(dtype=torch.float32, device=cfg.device)
         return edge_weights
@@ -144,7 +144,7 @@ class MyModel(nn.Module):
             len_cat_vecs = nodes_num[i]+len_img_vecs
             if len_img_vecs != 0:
                 nodes_vecs = torch.cat((nodes_vecs, img_vecs), dim=0)
-                semantic_vecs = torch.cat((semantic_vecs, img_vecs), dim=0)
+                semantic_vecs = torch.cat((semantic_vecs, img_vecs), dim=0) # sequential representation of news content
 
             # graph construction
             text_graph = build_graph(len_cat_vecs, nodes_vecs).to(cfg.device)
