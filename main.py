@@ -58,13 +58,13 @@ if __name__ == "__main__":
     # Setting the inputs
     if args.dataset_name != -1:
         cfg.dataset_name = args.dataset_name
-        cfg.dataset_path = "_data/"+ cfg.dataset_name + "/" + cfg.dataset_name +"_news.tsv"
-        cfg.img_path = "_data/"+ cfg.dataset_name + "/imgs"
-        cfg.model_path = "_data/"+ cfg.dataset_name + "/" + cfg.dataset_name +"_checkpoint.pt"
-        cfg.news_list = "_data/"+ cfg.dataset_name + "/" + cfg.dataset_name +"_news.npy"
-        cfg.news_label = "_data/"+ cfg.dataset_name + "/" + cfg.dataset_name +"_label.npy"
-        cfg.news_id = "_data/"+ cfg.dataset_name + "/" + cfg.dataset_name +"_id.npy"
-        cfg.nodes_num_data = "_data/"+ cfg.dataset_name + "/" + cfg.dataset_name +"_node.npy"
+        cfg.dataset_path = "data/"+ cfg.dataset_name + "/" + cfg.dataset_name +"_news.tsv"
+        cfg.img_path = "data/"+ cfg.dataset_name + "/imgs"
+        cfg.model_path = "data/"+ cfg.dataset_name + "/" + cfg.dataset_name +"_checkpoint.pt"
+        cfg.news_list = "data/"+ cfg.dataset_name + "/" + cfg.dataset_name +"_news.npy"
+        cfg.news_label = "data/"+ cfg.dataset_name + "/" + cfg.dataset_name +"_label.npy"
+        cfg.news_id = "data/"+ cfg.dataset_name + "/" + cfg.dataset_name +"_id.npy"
+        cfg.nodes_num_data = "data/"+ cfg.dataset_name + "/" + cfg.dataset_name +"_node.npy"
 
     if args.hyperpara != -1:
         cfg.beta = args.hyperpara
