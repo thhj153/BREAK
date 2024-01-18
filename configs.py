@@ -10,8 +10,8 @@ class Config():
         self.Seed = 1998 
         self.weight_decay = 0.0005
         self.hidden_dim = 100  # dimension of MLP
-        self.input_dim = 768
-        self.output_dim = 128 # 128 for weighted
+        self.input_dim = 768 # dimension of d
+        self.output_dim = 128 # dimension of h
         self.final_dim = 2
         self.test_perc = 0.1 # 10% of all dataset for testing
         self.val_perc =  0.11 # 11% of the left data (90%) for validating, i.e., ≈ 10% of all dataset
