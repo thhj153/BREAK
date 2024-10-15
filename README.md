@@ -1,4 +1,4 @@
-This is the official code of paper "Has the News Content Been Fully Explored? A Long-Short Range Semantic Dependency Network for Fake News Early Detection"
+This is the official code of paper "Graph with Sequence: Broad-Range Semantic Modeling for Fake News Detection"
 
 First, setting parameters on config.py (dataset name, data path, and so on)
 
