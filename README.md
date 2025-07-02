@@ -9,7 +9,11 @@
 - CUDA device: NVIDIA GeForce RTX 4060 Ti
 - CUDA device capability: (8, 9)
 
-_________________________________________________________________________
+
+
+
+<hr>
+### Original Text
 
 This is the official code of paper "Graph with Sequence: Broad-Range Semantic Modeling for Fake News Detection"
 
