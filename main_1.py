@@ -53,7 +53,7 @@ def metric_new(pred, label):
 
 if __name__ == "__main__":
     cfg = Config() # Instantiate the config class
-
+ 
     set_seed(cfg.Seed)
     # Setting the inputs
     if args.dataset_name != -1:

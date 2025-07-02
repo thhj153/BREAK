@@ -33644,4 +33644,3086 @@ kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
 [debug] pred_res min/max: nan / nan
 [debug] label unique: [0, 1]
 [debug] ❌ kldiv is NaN or Inf!
-kldiv: 
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 8] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 9] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 10] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 11] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 12] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 13] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 14] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 15] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 16] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 17] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 18] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 19] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 20] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 21] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 22] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 23] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 24] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 25] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 26] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 27] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 28] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 29] Begins.
+[debug] -1 counter in train_label: 0
+[SKIP] Invalid labels at batch 29:
+Invalid labels: tensor([-9223372036854775808], device='cuda:0')
+
+[Batch 30] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 31] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 32] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 33] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 34] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 35] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 36] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 37] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 38] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 39] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 40] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 41] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 1 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 42] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 43] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 44] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 45] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 1 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 46] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 47] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 48] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 49] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 50] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 51] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 52] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 53] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 54] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 55] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 56] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 57] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 58] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 59] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 60] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 61] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 62] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 63] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 64] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 65] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+epoch:41, train_loss: nan......
+********epoch:41, val_loss:nan,  Acc:0.682, Pre:0.465, Rec:0.682, F1:0.553
+Time consuming for this epoch: 31.586793661117554s
+********************************************************************************
+epoch:42
+
+[Batch 0] Begins.
+[debug] -1 counter in train_label: 0
+=== [DEBUG: Batch 0] ===
+train_label: tensor([0, 1, 0, 0, 0, 1, 0, 0], device='cuda:0')
+label min/max: 0 / 1
+unique labels: [0, 1]
+========================
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 1] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 2] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 3] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 1 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 4] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 5] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 6] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 7] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 8] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 9] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 10] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 11] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 12] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 13] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 14] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 15] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 16] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 17] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 18] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 19] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 20] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 21] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 22] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 23] Begins.
+[debug] -1 counter in train_label: 0
+[SKIP] Invalid labels at batch 23:
+Invalid labels: tensor([-9223372036854775808], device='cuda:0')
+
+[Batch 24] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 25] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 26] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 27] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 28] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 29] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 30] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 31] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 32] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 33] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 34] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 35] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 36] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 37] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 38] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 39] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 40] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 41] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 42] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 43] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 44] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 45] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 46] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 47] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 48] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 49] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 50] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 51] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 52] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 53] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 54] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 55] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 56] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 57] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 58] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 59] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 60] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 61] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 62] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 63] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 64] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 65] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+epoch:42, train_loss: nan......
+********epoch:42, val_loss:nan,  Acc:0.682, Pre:0.465, Rec:0.682, F1:0.553
+Time consuming for this epoch: 32.5112681388855s
+********************************************************************************
+epoch:43
+
+[Batch 0] Begins.
+[debug] -1 counter in train_label: 0
+=== [DEBUG: Batch 0] ===
+train_label: tensor([1, 1, 0, 1, 0, 0, 0, 0], device='cuda:0')
+label min/max: 0 / 1
+unique labels: [0, 1]
+========================
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 1] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 2] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 3] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 4] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 5] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 6] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 7] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 8] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 9] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 10] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 0
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 11] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 12] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 13] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 14] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 15] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 16] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 17] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 18] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 19] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 20] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 21] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 22] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 23] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 24] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 25] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 26] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 27] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 28] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 29] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 30] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 31] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 32] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 33] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 34] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 35] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 36] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 37] Begins.
+[debug] -1 counter in train_label: 0
+[SKIP] Invalid labels at batch 37:
+Invalid labels: tensor([-9223372036854775808], device='cuda:0')
+
+[Batch 38] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 39] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 40] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 41] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 42] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 43] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 44] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 45] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 46] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 47] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 48] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 49] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 50] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 51] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 52] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 53] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 54] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 55] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 56] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 57] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 58] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 59] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 60] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 61] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 62] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 63] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 64] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 65] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+epoch:43, train_loss: nan......
+********epoch:43, val_loss:nan,  Acc:0.682, Pre:0.465, Rec:0.682, F1:0.553
+Time consuming for this epoch: 32.440327882766724s
+********************************************************************************
+epoch:44
+
+[Batch 0] Begins.
+[debug] -1 counter in train_label: 0
+=== [DEBUG: Batch 0] ===
+train_label: tensor([1, 1, 1, 0, 0, 1, 0, 1], device='cuda:0')
+label min/max: 0 / 1
+unique labels: [0, 1]
+========================
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 1] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 2] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 3] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 4] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 5] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 6] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 7] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 8] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 9] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 10] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 11] Begins.
+[debug] -1 counter in train_label: 0
+[SKIP] Invalid labels at batch 11:
+Invalid labels: tensor([-9223372036854775808], device='cuda:0')
+
+[Batch 12] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 13] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 14] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 15] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 16] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 17] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 18] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 19] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 20] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 21] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 22] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 23] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 24] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 25] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 26] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 27] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 28] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 29] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 30] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 31] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 32] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 33] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 34] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 35] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 36] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 37] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 38] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 39] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 40] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 41] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 42] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 43] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 44] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 45] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 46] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 47] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 48] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 49] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 50] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 51] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 52] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 53] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 54] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 55] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 56] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 57] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 58] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 59] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 60] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 61] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 62] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 63] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 64] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+
+[Batch 65] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: nan / nan
+[debug] label unique: [0, 1]
+[debug] ❌ kldiv is NaN or Inf!
+kldiv: tensor(nan, device='cuda:0', grad_fn=<MeanBackward0>)
+epoch:44, train_loss: nan......
+********epoch:44, val_loss:nan,  Acc:0.682, Pre:0.465, Rec:0.682, F1:0.553
+Time consuming for this epoch: 31.645902395248413s
+********************************************************************************
+epoch:45
+
+[Batch 0] Begins.
+[debug] -1 counter in train_label: 0

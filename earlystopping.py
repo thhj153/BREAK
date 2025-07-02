@@ -26,12 +26,12 @@ class EarlyStopping:
         self.val_loss_min = 1e9
         self.delta = delta
         self.model_path = model_path
-        print('init')
+        print('init') 
 
     def __call__(self, val_loss, model):
 
         score = val_loss
-
+ 
         if self.best_score is None:
             self.best_score = score
             self.save_checkpoint(val_loss, model)

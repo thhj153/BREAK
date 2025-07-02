@@ -12,7 +12,7 @@ class Config():
         self.hidden_dim = 100  # dimension of MLP
         self.input_dim = 768 # dimension of d
         self.output_dim = 128 # dimension of h
-        self.final_dim = 2
+        self.final_dim = 2 
         self.test_perc = 0.1 # 10% of all dataset for testing
         self.val_perc =  0.11 # 11% of the left data (90%) for validating, i.e., ≈ 10% of all dataset
         self.beta = 0.1
@@ -29,7 +29,7 @@ class Config():
         self.dataset_path = "data/"+ self.dataset_name + "/" + self.dataset_name +"_news.tsv" # news textual content
         self.img_path = "data/"+ self.dataset_name + "/imgs" # news visual content
         self.model_path = "model/"+ self.dataset_name + "/" + self.dataset_name +"_checkpoint_op.pt" # save your trained LSSDN model
-
+ 
         # # save token path
         # self.news_list = "data/"+ self.dataset_name + "/" + self.dataset_name +"_news.npy"
         # self.news_label = "data/"+ self.dataset_name + "/" + self.dataset_name +"_label.npy"

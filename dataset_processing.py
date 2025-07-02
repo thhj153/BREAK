@@ -38,7 +38,7 @@ def convert_text_to_token(tokenizer, new, limit_sens, limit_words):
 # Build a graph
 def build_graph(node_num, nodes_feature):
 
-    G = nx.Graph()
+    G = nx.Graph() 
     edge_list = []
     for i in range(node_num):
         for j in range(node_num):
@@ -59,7 +59,7 @@ def build_graph(node_num, nodes_feature):
 # Get data from the dataset
 def get_data(data_path):
     news_list = pd.read_csv(data_path, sep="\t")
-
+ 
 
     # Get the title, content, and label of news, respectively.
     news_title, news_content, news_label, news_id = [],[],[],[]

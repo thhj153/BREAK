@@ -6,3 +6,4 @@ do
     echo $fl
     nohup env CUDA_LAUNCH_BLOCKING=1 python main_1.py -beta $fl -dn "politic" > bash_$fl.txt
 done
+ 

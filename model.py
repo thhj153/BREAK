@@ -179,3 +179,4 @@ class MyModel(nn.Module):
             return pred, kldiv # 원문에서 pred, kldiv 로 언팩
         else:
             return pred, None # 수정 안하니 튜플 에러, 원 코드에서 전부, pred와 _ 로 언팩
+ 
