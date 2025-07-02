@@ -65,8 +65,6 @@ if __name__ == "__main__":
         cfg.news_label = "./data/"+ cfg.dataset_name + "/" + cfg.dataset_name +"_label.npy"
         cfg.news_id = "./data/"+ cfg.dataset_name + "/" + cfg.dataset_name +"_id.npy"
         cfg.nodes_num_data = "./data/"+ cfg.dataset_name + "/" + cfg.dataset_name +"_node.npy"
-
-    os.makedirs(os.path.dirname(cfg.model_path), exist_ok=True)
     
     if args.hyperpara != -1:
         cfg.beta = args.hyperpara
