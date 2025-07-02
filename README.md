@@ -4,6 +4,8 @@
 - .gitignore: data/politic/politic_checkpoint.pt
 
 ##### [Requirements]
+: torch, python version
+- python Version: 3.10.15
 - Torch CUDA available: True
 - CUDA version (compiled): 12.4
 - CUDA device: NVIDIA GeForce RTX 4060 Ti
