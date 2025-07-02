@@ -1,0 +1,1024 @@
+{'limit_num_sen': 25, 'limit_num_words': 13, 'lr': 1e-05, 'lr_edge': 0.1, 'Seed': 1998, 'weight_decay': 0.0005, 'hidden_dim': 100, 'input_dim': 768, 'output_dim': 128, 'final_dim': 2, 'test_perc': 0.1, 'val_perc': 0.11, 'beta': 0.5, 'epoch': 100, 'batch_size': 8, 'device': device(type='cuda', index=0), 'bert_model': 'bert-base-uncased', 'dataset_name': 'politic', 'dataset_path': './data/politic/politic_news.tsv', 'img_path': './data/politic/imgs', 'model_path': './data/politic/politic_checkpoint.pt', 'news_list': './data/politic/politic_news.npy', 'news_label': './data/politic/politic_label.npy', 'news_id': './data/politic/politic_id.npy', 'nodes_num_data': './data/politic/politic_node.npy'}
+********************************************************************************
+********************************************************************************
+********************************************************************************
+Constructing Model...
+device: cuda:0
+init
+********************************************************************************
+********************************************************************************
+Defining Loss Function...
+********************************************************************************
+********************************************************************************
+Taking Adam as the Ooptimizer...
+********************************************************************************
+the length of news_list is: 661
+the length of news_tit_cont is: 661
+convert_text_to_token......
+  0%|          | 0/661 [00:00<?, ?it/s]  4%|▍         | 27/661 [00:00<00:02, 261.72it/s]  8%|▊         | 54/661 [00:00<00:02, 206.54it/s] 12%|█▏        | 78/661 [00:00<00:02, 215.95it/s] 15%|█▌        | 101/661 [00:00<00:02, 203.85it/s] 20%|█▉        | 130/661 [00:00<00:02, 229.16it/s] 23%|██▎       | 155/661 [00:00<00:02, 234.82it/s] 27%|██▋       | 181/661 [00:00<00:01, 241.65it/s] 31%|███       | 206/661 [00:00<00:01, 236.02it/s] 35%|███▍      | 230/661 [00:01<00:01, 225.11it/s] 39%|███▉      | 259/661 [00:01<00:01, 239.39it/s] 43%|████▎     | 284/661 [00:01<00:01, 240.00it/s] 47%|████▋     | 309/661 [00:01<00:01, 230.78it/s] 50%|█████     | 333/661 [00:01<00:01, 221.29it/s] 54%|█████▍    | 358/661 [00:01<00:01, 228.09it/s] 58%|█████▊    | 384/661 [00:01<00:01, 235.76it/s] 62%|██████▏   | 408/661 [00:01<00:01, 227.59it/s] 65%|██████▌   | 431/661 [00:01<00:01, 222.11it/s] 69%|██████▉   | 455/661 [00:01<00:00, 226.15it/s] 73%|███████▎  | 481/661 [00:02<00:00, 234.09it/s] 76%|███████▋  | 505/661 [00:02<00:00, 225.77it/s] 80%|███████▉  | 528/661 [00:02<00:00, 225.40it/s] 84%|████████▎ | 552/661 [00:02<00:00, 227.26it/s] 87%|████████▋ | 575/661 [00:02<00:00, 218.71it/s] 90%|█████████ | 597/661 [00:02<00:00, 204.30it/s] 94%|█████████▎| 619/661 [00:02<00:00, 206.71it/s] 97%|█████████▋| 640/661 [00:02<00:00, 205.19it/s]100%|██████████| 661/661 [00:02<00:00, 188.87it/s]100%|██████████| 661/661 [00:02<00:00, 220.47it/s]
+We strongly recommend passing in an `attention_mask` since your input_ids may be padded. See https://huggingface.co/docs/transformers/troubleshooting#incorrect-output-when-padding-tokens-arent-masked.
+the length of train_news_list is: 528
+the length of val_news_list is: 66
+the length of test_news_list is: 67
+epoch:1
+
+[Batch 0] Begins.
+[debug] -1 counter in train_label: 0
+=== [DEBUG: Batch 0] ===
+train_label: tensor([1, 1, 0, 1, 1, 1, 0, 0], device='cuda:0')
+label min/max: 0 / 1
+unique labels: [0, 1]
+========================
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.030753185972571373 / 0.14520151913166046
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 1] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.04956001788377762 / 0.19069904088974
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 2] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.042922500520944595 / 0.15081864595413208
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 3] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.08375395834445953 / 0.2035694420337677
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 4] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.05019658803939819 / 0.1430761218070984
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 5] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.04994368925690651 / 0.15336745977401733
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 6] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.14248442649841309 / 0.18059290945529938
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 7] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.051498811691999435 / 0.16260352730751038
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 8] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.15887410938739777 / 0.16715772449970245
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 9] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.04182315245270729 / 0.21418768167495728
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 10] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.09049149602651596 / 0.17543818056583405
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 11] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.05143774673342705 / 0.14699077606201172
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 12] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.12124726921319962 / 0.199824720621109
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 13] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.20215773582458496 / 0.22551266849040985
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 14] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.12194234132766724 / 0.18486621975898743
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 15] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.16182678937911987 / 0.20907416939735413
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 16] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.3936105966567993 / 0.3678244352340698
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 17] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.25618982315063477 / 0.8042120337486267
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 18] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.039637625217437744 / 0.2543281614780426
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 19] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.07939307391643524 / 0.467721551656723
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 20] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.12066137045621872 / 0.29220351576805115
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 21] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.06529229879379272 / 0.25019434094429016
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 22] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.2509336471557617 / 0.5489040017127991
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 23] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.12404897063970566 / 0.46352458000183105
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 24] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.06812484562397003 / 0.4452931880950928
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 25] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.023915588855743408 / 0.3814251720905304
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 26] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.18015047907829285 / 0.42895689606666565
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 27] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.2094222605228424 / 0.22376452386379242
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 28] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.01780586689710617 / 0.4547250270843506
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 29] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.13251979649066925 / 0.37756550312042236
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 30] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.05955441668629646 / 0.4464759826660156
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 31] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.17606694996356964 / 0.39068904519081116
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 32] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.015933651477098465 / 0.4903613030910492
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 33] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.049358513206243515 / 0.45327261090278625
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 34] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.5628190040588379 / 0.3846241235733032
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 35] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.0631551519036293 / 0.5043014883995056
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 36] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.018731359392404556 / 0.3798520565032959
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 37] Begins.
+[debug] -1 counter in train_label: 0
+[SKIP] Invalid labels at batch 37:
+Invalid labels: tensor([-9223372036854775808], device='cuda:0')
+
+[Batch 38] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.02397419698536396 / 0.36890366673469543
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 39] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.020809363573789597 / 0.32293012738227844
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 40] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: 0.03059389255940914 / 0.5438610911369324
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 41] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.07008284330368042 / 0.5079919099807739
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 42] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.039392806589603424 / 0.32769832015037537
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 43] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.024209583178162575 / 0.34014177322387695
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 44] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.12489869445562363 / 0.2911141514778137
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 45] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.15637832880020142 / 0.31210577487945557
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 46] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.05598601698875427 / 0.24489323794841766
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 47] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.10681261867284775 / 0.3581238090991974
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 48] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.12382234632968903 / 0.1665472686290741
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 49] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.28940433263778687 / 0.5392352342605591
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 50] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.015079772099852562 / 0.25156354904174805
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 51] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.1988830864429474 / 0.3127455711364746
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 52] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.20216552913188934 / 0.24730448424816132
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 53] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.04314550384879112 / 0.25934848189353943
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 54] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.1258034110069275 / 0.27112266421318054
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 55] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.10312196612358093 / 0.20664148032665253
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 56] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.08861762285232544 / 0.4697405993938446
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 57] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.19617719948291779 / 0.29108530282974243
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 58] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.167458176612854 / 0.2567718029022217
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 59] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.07953215390443802 / 0.19424846768379211
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 60] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.03525664284825325 / 0.24251659214496613
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 61] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.06189975142478943 / 0.2884766459465027
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 62] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.04063861444592476 / 0.308248370885849
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 63] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.05040524899959564 / 0.19910761713981628
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 64] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.017491891980171204 / 0.36463499069213867
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 65] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.0802912712097168 / 0.36072680354118347
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+epoch:1, train_loss: 24.4139......
+********epoch:1, val_loss:0.6660,  Acc:0.712, Pre:0.693, Rec:0.712, F1:0.666
+Traceback (most recent call last):
+  File "/home/charmoyster/Taehun/BREAK-main/main_1.py", line 292, in <module>
+    early_stopping(epoch_loss_val, LSSDN)
+  File "/home/charmoyster/Taehun/BREAK-main/earlystopping.py", line 37, in __call__
+    self.save_checkpoint(val_loss, model)
+  File "/home/charmoyster/Taehun/BREAK-main/earlystopping.py", line 54, in save_checkpoint
+    torch.save(model.state_dict(), cfg.model_path)     # save the optimal model
+  File "/home/charmoyster/miniconda3/envs/Taehun_3.10/lib/python3.10/site-packages/torch/serialization.py", line 849, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+  File "/home/charmoyster/miniconda3/envs/Taehun_3.10/lib/python3.10/site-packages/torch/serialization.py", line 716, in _open_zipfile_writer
+    return container(name_or_buffer)
+  File "/home/charmoyster/miniconda3/envs/Taehun_3.10/lib/python3.10/site-packages/torch/serialization.py", line 687, in __init__
+    super().__init__(torch._C.PyTorchFileWriter(self.name))
+RuntimeError: Parent directory model/politic does not exist.

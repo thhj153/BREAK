@@ -1,0 +1,364 @@
+{'limit_num_sen': 25, 'limit_num_words': 13, 'lr': 1e-05, 'lr_edge': 0.1, 'Seed': 1998, 'weight_decay': 0.0005, 'hidden_dim': 100, 'input_dim': 768, 'output_dim': 128, 'final_dim': 2, 'test_perc': 0.1, 'val_perc': 0.11, 'beta': 0.6, 'epoch': 100, 'batch_size': 8, 'device': device(type='cuda', index=0), 'bert_model': 'bert-base-uncased', 'dataset_name': 'politic', 'dataset_path': './data/politic/politic_news.tsv', 'img_path': './data/politic/imgs', 'model_path': './data/politic/politic_checkpoint.pt', 'news_list': './data/politic/politic_news.npy', 'news_label': './data/politic/politic_label.npy', 'news_id': './data/politic/politic_id.npy', 'nodes_num_data': './data/politic/politic_node.npy'}
+********************************************************************************
+********************************************************************************
+********************************************************************************
+Constructing Model...
+device: cuda:0
+init
+********************************************************************************
+********************************************************************************
+Defining Loss Function...
+********************************************************************************
+********************************************************************************
+Taking Adam as the Ooptimizer...
+********************************************************************************
+the length of news_list is: 661
+the length of news_tit_cont is: 661
+convert_text_to_token......
+  0%|          | 0/661 [00:00<?, ?it/s]  4%|▍         | 27/661 [00:00<00:02, 263.22it/s]  8%|▊         | 54/661 [00:00<00:02, 207.75it/s] 12%|█▏        | 77/661 [00:00<00:02, 215.93it/s] 15%|█▌        | 100/661 [00:00<00:02, 202.72it/s] 20%|█▉        | 129/661 [00:00<00:02, 227.97it/s] 23%|██▎       | 153/661 [00:00<00:02, 231.35it/s] 27%|██▋       | 178/661 [00:00<00:02, 236.91it/s] 31%|███       | 202/661 [00:00<00:01, 230.14it/s] 34%|███▍      | 226/661 [00:00<00:01, 228.61it/s] 38%|███▊      | 253/661 [00:01<00:01, 239.44it/s] 42%|████▏     | 278/661 [00:01<00:01, 239.47it/s] 46%|████▌     | 303/661 [00:01<00:01, 234.70it/s] 49%|████▉     | 327/661 [00:01<00:01, 222.17it/s] 53%|█████▎    | 350/661 [00:01<00:01, 221.51it/s] 57%|█████▋    | 376/661 [00:01<00:01, 231.86it/s] 61%|██████    | 400/661 [00:01<00:01, 226.46it/s] 64%|██████▍   | 423/661 [00:01<00:01, 224.75it/s] 67%|██████▋   | 446/661 [00:01<00:00, 223.82it/s] 71%|███████   | 470/661 [00:02<00:00, 225.88it/s] 75%|███████▍  | 494/661 [00:02<00:00, 228.16it/s] 78%|███████▊  | 517/661 [00:02<00:00, 227.76it/s] 82%|████████▏ | 540/661 [00:02<00:00, 226.40it/s] 85%|████████▌ | 563/661 [00:02<00:00, 223.89it/s] 89%|████████▊ | 586/661 [00:02<00:00, 208.34it/s] 92%|█████████▏| 608/661 [00:02<00:00, 207.10it/s] 95%|█████████▌| 629/661 [00:02<00:00, 206.42it/s] 98%|█████████▊| 650/661 [00:02<00:00, 199.84it/s]100%|██████████| 661/661 [00:02<00:00, 220.43it/s]
+We strongly recommend passing in an `attention_mask` since your input_ids may be padded. See https://huggingface.co/docs/transformers/troubleshooting#incorrect-output-when-padding-tokens-arent-masked.
+the length of train_news_list is: 528
+the length of val_news_list is: 66
+the length of test_news_list is: 67
+epoch:1
+
+[Batch 0] Begins.
+[debug] -1 counter in train_label: 0
+=== [DEBUG: Batch 0] ===
+train_label: tensor([1, 1, 0, 1, 1, 1, 0, 0], device='cuda:0')
+label min/max: 0 / 1
+unique labels: [0, 1]
+========================
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.03075319156050682 / 0.14520151913166046
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 1] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.049440089613199234 / 0.19086259603500366
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 2] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.04305262863636017 / 0.1509157121181488
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 3] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.05873819813132286 / 0.18383491039276123
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 4] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.047952041029930115 / 0.14311712980270386
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 5] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.049880314618349075 / 0.1533919721841812
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 6] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.14096763730049133 / 0.1837267279624939
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 7] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.051822274923324585 / 0.1638725996017456
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 8] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.09638697654008865 / 0.16449828445911407
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 9] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.0416826494038105 / 0.19340163469314575
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 10] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.09195874631404877 / 0.17268657684326172
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 11] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.04730068892240524 / 0.23311473429203033
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 12] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.14763274788856506 / 0.2015470564365387
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 13] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.1946273148059845 / 0.3120824694633484
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 14] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.1342737376689911 / 0.18599656224250793
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 15] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.07607065141201019 / 0.1847883015871048
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 16] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.03357261046767235 / 0.3304715156555176
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 17] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.1604262739419937 / 0.4151599407196045
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 18] Begins.
+[debug] -1 counter in train_label: 0
+[debug] pred_res.shape: torch.Size([8, 2])
+[debug] train_label.shape: torch.Size([8])
+[debug] label dtype: torch.int64 | pred_res dtype: torch.float32
+[debug] device: label(cuda:0) | pred_res(cuda:0)
+[debug] label min/max: 0 / 1
+[debug] pred_res min/max: -0.07009731233119965 / 0.28862372040748596
+[debug] label unique: [0, 1]
+[check] any label out of bound? False
+[check] any label < 0? False
+[check] label requires grad? False
+[check] pred_res has NaN? False
+[check] pred_res has Inf? False
+
+[Batch 19] Begins.
+[debug] -1 counter in train_label: 0
+Traceback (most recent call last):
+  File "/home/charmoyster/Taehun/BREAK-main/main_1.py", line 192, in <module>
+    pred_res, _ = LSSDN.forward(train_news, train_node, train_id, Flag="inner")
+  File "/home/charmoyster/Taehun/BREAK-main/model.py", line 139, in forward
+    nodes_vecs = self.bert_pret1(sent_i)
+  File "/home/charmoyster/miniconda3/envs/Taehun_3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/charmoyster/miniconda3/envs/Taehun_3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/charmoyster/Taehun/BREAK-main/model.py", line 62, in forward
+    seman_vecs = self.bert_pret1(sent)
+  File "/home/charmoyster/miniconda3/envs/Taehun_3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/charmoyster/miniconda3/envs/Taehun_3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/charmoyster/miniconda3/envs/Taehun_3.10/lib/python3.10/site-packages/transformers/models/bert/modeling_bert.py", line 1142, in forward
+    encoder_outputs = self.encoder(
+  File "/home/charmoyster/miniconda3/envs/Taehun_3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/charmoyster/miniconda3/envs/Taehun_3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/charmoyster/miniconda3/envs/Taehun_3.10/lib/python3.10/site-packages/transformers/models/bert/modeling_bert.py", line 695, in forward
+    layer_outputs = layer_module(
+  File "/home/charmoyster/miniconda3/envs/Taehun_3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/charmoyster/miniconda3/envs/Taehun_3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/charmoyster/miniconda3/envs/Taehun_3.10/lib/python3.10/site-packages/transformers/models/bert/modeling_bert.py", line 585, in forward
+    self_attention_outputs = self.attention(
+  File "/home/charmoyster/miniconda3/envs/Taehun_3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/charmoyster/miniconda3/envs/Taehun_3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/charmoyster/miniconda3/envs/Taehun_3.10/lib/python3.10/site-packages/transformers/models/bert/modeling_bert.py", line 515, in forward
+    self_outputs = self.self(
+  File "/home/charmoyster/miniconda3/envs/Taehun_3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/charmoyster/miniconda3/envs/Taehun_3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/charmoyster/miniconda3/envs/Taehun_3.10/lib/python3.10/site-packages/transformers/models/bert/modeling_bert.py", line 395, in forward
+    query_layer = self.transpose_for_scores(self.query(hidden_states))
+  File "/home/charmoyster/miniconda3/envs/Taehun_3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/charmoyster/miniconda3/envs/Taehun_3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/charmoyster/miniconda3/envs/Taehun_3.10/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt
